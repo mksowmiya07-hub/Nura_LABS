@@ -1,0 +1,130 @@
+/* REGISTER PAGE */
+
+body {
+    background-color: #8ac3df;
+    font-family: Arial, sans-serif;
+}
+
+.model1{
+width: 400px;
+background-color: aliceblue;
+margin-top: 10px;
+border-radius: 10px;
+height: 520px;
+padding: 20px;
+box-shadow: 2px 2px grey;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn-outline-danger{
+    background-color: #8ac3df;
+    border: none;
+    padding: 11px;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+.btn-outline-danger:hover{
+    background-color: rgb(100, 129, 210);
+    
+}
+
+
+/* LOGIN PAGE */
+
+body {
+    background: linear-gradient(135deg,  #8ac3df, #8fc5ff);
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+}
+
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.login-card {
+    display: flex;
+    width: 900px;
+    max-width: 100%;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.login-left {
+    width: 40%;
+    background: #eeeeff;
+    padding: 60px 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-left h2 {
+    color: rgb(100, 129, 210);
+    font-weight: bold;
+}
+
+.tagline {
+    color: #555;
+    margin-bottom: 50px;
+}
+
+.login-left h3 {
+    font-weight: bold;
+    color: #202040;
+}
+
+.login-right {
+    width: 60%;
+    padding: 50px;
+}
+
+.login-right h1 {
+    font-weight: bold;
+    color: #171735;
+}
+
+.subtitle {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.login-right .form-control {
+    padding: 13px;
+    border-radius: 8px;
+}
+
+.forgot-link,
+.register-text a {
+    color: rgb(100, 129, 210);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-btn {
+    background:  #8ac3df;
+    
+    padding: 13px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.login-btn:hover {
+    background-color: rgb(100, 129, 210);
+    
+}
+.register-text {
+    text-align: center;
+    margin-top: 30px;
+}
+
